@@ -63,15 +63,11 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Input a radius: ");
-		int radius = input.nextInt();
+		double radius = input.nextDouble();
 
-		double rad = radius;
-		rad = 3.14 * (Math.pow(rad, 2)); //radius^2
+		radius = 3.14 * (Math.pow(radius, 2)); //radius^2
 
-		System.out.println(rad);
-
-		//come back
-
+		System.out.println(radius);
 
 	}
 
@@ -84,9 +80,8 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Input a number: ");
-		int num = input.nextInt();
+		double num1 = input.nextDouble();
 
-		double num1 = num;
 		num1 = num1 * 12;
 		num1 = Math.floor(num1);
 
